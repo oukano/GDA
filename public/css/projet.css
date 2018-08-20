@@ -1,0 +1,55 @@
+#topH {
+  position: absolute;
+  top: 5px;
+  font-size: 30px;
+}
+
+.rightBar {
+  float: right;
+  position: absolute;
+  right: 7px;
+}
+
+.rightBar li {
+  list-style: none;
+  font-size: 12px;
+  overflow-x: hidden;
+}
+
+.rightBar li:hover {
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .rightBar{
+    position: absolute;
+    right: 5px;
+    font-size: 0.85em;
+} */
+
+p {
+  margin-bottom: 5px;
+}
+
+#saveDoc {
+  opacity: 1;
+}
+
+.dataTables_wrapper {
+  position: relative;
+  clear: both;
+  zoom: 1;
+  width: 221px;
+}
+
+#dataTable tr {
+  cursor: pointer;
+}
+
+#dataTable td:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+

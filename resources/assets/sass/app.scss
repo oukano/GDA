@@ -1,0 +1,52 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Font Awsome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+.sidebar-brand{
+  text-align: center;
+}
+a.barr1 {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  padding: 0px
+}
+
+a.barr2 {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  padding: 0px
+}
+
+a.barr1 img, a.barr2 img{
+  width: 40px;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+button#toggleSB{
+  position: absolute;
+  top:0px;
+  right:0px
+}
+
+.sidebarimg{
+  width:30px;
+}
+
+.none{
+  display: none;
+}
